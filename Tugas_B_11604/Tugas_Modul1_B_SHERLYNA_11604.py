@@ -3,10 +3,10 @@ import pickle
 import os
 
 #load model
-model_directory = r'/content/drive/MyDrive/Colab Notebooks/Tugas_B_11604' ##diisi dengan path folder dimana file dataset berada
+#model_directory = r'/content/drive/MyDrive/Colab Notebooks/Tugas_B_11604' ##diisi dengan path folder dimana file dataset berada
 
 # Gunakan os.path.join() untuk menggabungkan direktori dan file model pickle
-model_path = os.path.join(model_directory, '/content/drive/MyDrive/Colab Notebooks/Tugas_B_11604/rf_diabetes_model.pkl') 
+model_path = '/content/drive/MyDrive/Colab Notebooks/Tugas_B_11604/rf_diabetes_model.pkl'
 
 # Periksa apakah file ada di direktori yang ditentukan
 if os.path.exists(model_path):
